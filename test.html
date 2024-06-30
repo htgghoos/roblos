@@ -641,10 +641,10 @@
 
             .followtools a,.followtools a:visited {
                 display: inline-block;
-                background: linear-gradient(135deg, hsla(224, 100%, 50%, 0.26),hsla(8, 100%, 50%, 0.26));
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 color: hsla(200,100%,90%,.9);
-                border-radius: 0;
+                border-radius: 25px;
                 padding: 7px;
                 margin: 4px;
                 position: relative
@@ -666,7 +666,7 @@
             }
 
             .followtools a.big.cup i {
-                background-image: linear-gradient(135deg,#fceabb 0,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 color: transparent;
                 -webkit-background-clip: text;
                 background-clip: text
@@ -674,8 +674,8 @@
 
             .followtools a.gold,.followtools a.gold:visited,#donate_mobile {
                 text-shadow: 0 0 7px hsla(20,100%,80%,1);
-                background: radial-gradient(ellipse at center,hsla(20,50%,0%,1) 0,hsla(20,100%,80%,.5) 150%);
-                box-shadow: 0 0 6px hsla(20,100%,80%,1);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
+                box-shadow: 0 0 6px linear-gradient(black,blue);
                 color: hsla(20,100%,90%,.9)
             }
 
@@ -686,12 +686,17 @@
 
             .followtools a.gold:hover {
                 background: hsla(20,90%,40%,.8);
-                color: #FFF
+                color: #FFF;
+                transform: scale(1.31);
+                transition: .7s ease;
+                background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
             }
 
             .followtools a:hover {
-                background: hsla(200,50%,50%,.8);
-                color: #FFF
+                background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+                color: #FFF;
+                transform: scale(1.31);
+                transition: .7s ease;
             }
 
             .followtools span {
@@ -725,10 +730,10 @@
                 width: 40px;
                 height: 40px;
                 line-height: 40px;
-                border: 0;
+                border-radius: 25px;
                 text-align: center;
                 cursor: pointer;
-                background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsla(200,100%,70%,.5) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 text-shadow: 0 0 7px hsla(200,100%,80%,1);
                 color: hsla(200,100%,90%,.8)
@@ -737,7 +742,9 @@
             .social i:hover,.mobile-social i:hover,.mobile-tools i:hover,.stats i:hover {
                 background: #000;
                 border: 0 solid hsl(200,90%,70%);
-                background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsla(200,70%,70%,.5) 100%);
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 text-shadow: 0 0 7px hsla(200,100%,80%,1);
                 color: #FFF
@@ -766,10 +773,10 @@
 
             .inputwrapper {
                 display: inline-block;
-                background: linear-gradient(to top,hsla(200,70%,70%,.5) 0,hsla(200,50%,0%,1) 20%,hsla(200,50%,0%,1) 60%,hsla(200,20%,40%,.5) 100%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,80%,80%,1);
                 text-shadow: 0 0 7px hsla(200,80%,80%,1);
-                border-radius: 4px;
+                border-radius: 25px;
                 height: 43px;
                 margin-top: 10px;
                 position: relative;
@@ -785,9 +792,10 @@
 
             .colorchosen {
                 transition: all .5s ease;
-                background: red;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 display: inline-block;
                 border: 2px solid rgba(0,0,0,.5);
+                border-radius:25px;
                 vertical-align: middle;
                 width: 32px;
                 height: 32px;
@@ -824,12 +832,13 @@
                 font-size: .8em;
                 text-align: center;
                 text-transform: uppercase;
-                border: 0 solid hsl(200,90%,10%);
+                border: 0 solid hsl(100, 88%, 10%);
+                border-radius:25px;
                 width: 415px;
                 max-width: 80%;
                 color: #EEE;
                 outline: 0;
-                background: transparent;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 transition: all .5s ease;
                 text-shadow: 0 0 7px hsla(200,80%,80%,1);
                 color: hsla(200,90%,90%,.8)
@@ -843,8 +852,9 @@
                 border: 0 solid hsl(200,90%,10%);
                 width: 350px;
                 outline: 0;
-                transition: all .5s ease;
-                background: linear-gradient(to top,hsla(200,70%,70%,.5) 0,hsla(200,50%,0%,1) 20%,hsla(200,50%,0%,1) 60%,hsla(200,20%,40%,.5) 100%);
+                transform: scale(1.31);
+                transition: .7s ease;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,80%,80%,1);
                 color: hsla(200,90%,90%,.8);
                 text-shadow: 0 0 7px hsla(200,80%,80%,1);
@@ -890,10 +900,11 @@
             #player button,#respawn_actions button,.donate-btn {
                 padding: 10px 60px;
                 font-size: 1.2em;
+                border-radius:25px;
                 cursor: pointer;
                 margin: 20px 0 20px 0;
                 text-align: center;
-                background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsla(200,100%,70%,.5) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 text-shadow: 0 0 7px hsla(200,100%,80%,1);
                 color: hsla(200,100%,90%,.8);
@@ -902,7 +913,9 @@
             }
 
             #player button:hover,#respawn_actions button:hover,.donate-btn:hover,.ecpbtn:hover {
-                background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsla(200,100%,70%,.5) 100%);
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
                 box-shadow: 0 0 8px hsla(200,100%,90%,1);
                 color: #FFF
             }
@@ -918,6 +931,7 @@
                 font-family: normal normal normal 14px/1 FontAwesome;
                 margin: 9px 10px 0 10px;
                 cursor: pointer;
+                border-radius: 25px;
                 color: hsla(200,60%,80%,.5);
                 text-align: center;
                 text-shadow: 0 0 7px hsla(200,100%,80%,1)
@@ -934,7 +948,7 @@
 
             #play.orange {
                 color: #FFF;
-                background: radial-gradient(ellipse at center,hsla(20,50%,0%,1) 0,hsla(20,100%,70%,.5) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 text-shadow: 0 0 7px hsla(20,100%,80%,1);
                 box-shadow: 0 0 6px hsla(20,100%,80%,1)
             }
@@ -968,8 +982,9 @@
             .stats {
                 font-size: .5em;
                 border: 2px solid hsl(200,50%,70%);
+                border-radius:25px;
                 box-shadow: 0 0 15px hsl(200,50%,70%);
-                background: hsla(200,50%,10%,.5);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 width: 600px;
                 padding: 0 10px;
                 margin: 10px auto
@@ -987,7 +1002,7 @@
 
             .stats small {
                 display: inline-block;
-                background: rgba(0,0,0,.6);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 padding: 10px 15px 5px 15px;
                 border-radius: 50% 50% 0 0
             }
@@ -1054,7 +1069,7 @@
                 width: 90%;
                 margin: 0 auto;
                 height: 25px;
-                background: linear-gradient(to bottom,#000 0,#444 49%,#222 50%,#000 100%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 border: 2px solid hsla(200,100%,70%,.8);
                 box-shadow: 0 0 10px hsla(200,100%,80%,1);
                 border-radius: 4px
@@ -1072,7 +1087,11 @@
             }
 
             .sbg-facebook:hover .sbg-diamond,.sbg-twitter:hover .sbg-diamond {
-                color: hsl(200,90%,70%)
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+
+
             }
 
             .tutorial {
@@ -1088,7 +1107,7 @@
 
             .desktop {
                 margin-top: 50px;
-                background: rgba(255,255,255,.1)
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
             }
 
             .mobile {
@@ -1226,7 +1245,7 @@
                 height: 25px;
                 width: 0;
                 background: hsl(200,90%,70%);
-                background: linear-gradient(to right,hsla(200,30%,30%,.7) 0,hsla(200,90%,80%,.8) 100%)
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
             }
 
             .textprogress {
@@ -1243,8 +1262,8 @@
             .changelog-new,.extrabutton {
                 text-align: left;
                 width: 18vw;
-                border: 0;
-                background: linear-gradient(-45deg,hsla(200,50%,10%,.5) 0,hsla(200,50%,50%,.15) 100%);
+                border-radius: 25px;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 padding: 5px 10px;
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 font-size: .95vw;
@@ -1255,13 +1274,14 @@
             .community a {
                 display: inline-block;
                 border: 2px solid rgba(0,0,0,.5);
+                border-radius:25px;
                 width: 20%;
                 margin: .3%;
                 padding: 1vh 0;
                 text-align: center;
                 color: hsla(200,90%,90%,.8);
                 border-radius: 10px;
-                background: rgba(0,0,0,.3);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 fill: currentColor
             }
 
@@ -1270,8 +1290,12 @@
             }
 
             .community a:hover {
-                background: rgba(255,255,255,.1);
-                color: #fff
+                color: #fff;
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+
+
             }
 
             .community a svg {
@@ -1303,7 +1327,7 @@
             }
 
             .alphacentauri button {
-                background: #B11;
+                background: rgb(6, 6, 6);
                 color: #FFF;
                 box-shadow: 0 0 5px #B11;
                 border: 0;
@@ -1353,7 +1377,7 @@
                 text-align: center;
                 padding: 10px;
                 border-top: 1px solid hsla(200,60%,60%,.2);
-                background: rgba(200,240,255,.02);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 font-size: .8em;
                 margin: 0 -10px -5px -10px
             }
@@ -1361,7 +1385,11 @@
             a.full-changelog:hover {
                 color: #fff;
                 text-decoration: none;
-                background: rgba(200,240,255,.1)
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+
+
             }
 
             .bottom-left,.top-left,.top-right {
@@ -1386,7 +1414,7 @@
 
             .schedule {
                 border: 0;
-                background: linear-gradient(-45deg,hsla(200,50%,10%,1) 0,hsla(200,50%,50%,.15) 100%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 padding: 5px 10px;
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 font-size: 1.3vw;
@@ -1436,7 +1464,7 @@
                 width: 800px;
                 max-width: 100%;
                 max-height: 100%;
-                background: linear-gradient(135deg,hsla(200,30%,10%,1) 0,hsla(200,30%,30%,1) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 transition: top .6s ease;
                 display: none;
                 overflow: auto;
@@ -1481,7 +1509,11 @@
 
             .modal .close-modal:hover {
                 color: #FFF;
-                background: rgba(240,250,255,.1)
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+
+
             }
 
             .modal .modalbody {
@@ -1513,7 +1545,11 @@
             }
 
             .modal .modalbody span.region:hover {
-                background: rgba(120,180,255,.05)
+                transform: scale(1.31);
+                transition: .7s ease;
+               background: linear-gradient(160deg,hsla(358, 100%, 52%, 0.69), hsla(248, 100%, 52%, 0.69));
+
+
             }
 
             .modal .modalbody span.region.active {
@@ -1596,7 +1632,7 @@
             .modal .mod .totalplayed {
                 padding: 0 10px;
                 margin-bottom: -15px;
-                background: #fff;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 color: #000;
                 text-shadow: none;
                 font-size: .8em;
@@ -1697,8 +1733,9 @@
                 font-size: .8em;
                 padding: 3px 5px;
                 color: white;
-                background: hsl(200,60%,15%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 border: 1px solid hsl(200,60%,10%);
+                border-radius: 25px;
                 float: right;
                 vertical-align: middle;
                 width: 241px;
@@ -1816,7 +1853,7 @@
             .customizeship {
                 text-align: center;
                 padding: 15px;
-                background: rgba(0,0,0,.3);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 margin-top: 20px
             }
 
@@ -1854,14 +1891,14 @@
             }
 
             .frozenbg,.frozenbg:visited {
-                background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 20%,hsla(200,50%,60%,.5) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(200,100%,80%,1);
                 text-shadow: 0 0 7px hsla(200,100%,80%,1);
                 color: hsla(200,100%,90%,.8)
             }
 
             .hotbg,.hotbg:visited {
-                background: radial-gradient(ellipse at center,hsla(0,100%,30%,1) 20%,hsla(0,100%,50%,1) 150%);
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 box-shadow: 0 0 6px hsla(20,80%,70%,1);
                 color: #FFF;
                 border: 0;
@@ -1973,7 +2010,7 @@
             #licenceKey {
                 text-align: center;
                 border: 2px solid hsla(200,80%,80%,.2);
-                background: rgba(0,0,0,.2);
+                background: rgba(0, 0, 0, 0.2);
                 color: #FFF;
                 width: 150px;
                 font-size: 1.5em;
@@ -2239,7 +2276,7 @@
 
             .atcb_button {
                 align-items: center;
-                background: #f5f5f5;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 border: 1px solid #d2d2d2;
                 border-radius: 6px;
                 -webkit-box-shadow: 1px 2px 10px 0 rgba(0,0,0,.4);
@@ -2276,7 +2313,7 @@
             }
 
             .atcb_button.atcb_active {
-                background: #fff;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 border-radius: 6px 6px 3px 3px;
                 -webkit-box-shadow: 1px 5px 15px 0 rgba(0,0,0,.5);
                 box-shadow: 1px 5px 15px 0 rgba(0,0,0,.5);
@@ -2325,7 +2362,7 @@
 
             .atcb_list_item {
                 align-items: center;
-                background: #fafafa;
+                background: linear-gradient(160deg,hsla(353, 100%, 52%, 0.43), hsla(261, 100%, 52%, 0.43));
                 border: 1px solid #d2d2d2;
                 border-top: 0;
                 -webkit-box-shadow: 1px 2px 8px 0 rgba(0,0,0,.3);
@@ -2412,7 +2449,7 @@
                         <img style="box-shadow: 0px 0px 6px hsla(200,100%,80%,1)" src="https://starblast.data.neuronality.com/events/aow-expanding.jpg" title="Alpha orionis wars">
                         <div class="countdown"></div>
                         <a class="join-alpha-centauri" style="display:none;" href="#">
-                            <button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.1vw;">REJOINDRE LA BATAILLE</button>
+                            <button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.1vw;">Rejoin Match</button>
                         </a>
                         <div class="event-time"></div>
                     </div>
