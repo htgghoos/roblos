@@ -3223,8 +3223,52 @@ document.body.addEventListener("wheel", function(event) {
             window.Тестcl = Тестcl;
         </script>
         <script>
+            'use strict';
+
+             if (window.location.pathname == '/') {
+            var e = true;
+          class i {}
+          window.gd = new i();
+          if (typeof afykfdhgc != "undefined") {
+            if (afykfdhgc.guidetect() == "im here!") {
+                e = true;
+            }
+          } else {}
+          if (e == true) {
+            function l(m) {
+                var q = document.getElementsByTagName("head")[0];
+                var r = document.createElement("style");
+                r.setAttribute('id', "customtheme");
+                r.type = "text/css";
+                r.appendChild(document.createTextNode(m));
+                q.appendChild(r);
+            }
+
              document.body.insertAdjacentHTML("beforeend", "<div class=\"menu\">\n                          <i style=\"padding-left:40px;user-select: none;\">..</i>\n                          <div class=\"settings\">\n                            <input id=\"clickMe\" type=\"button\" value=\"KAK_TAK_TO\" onclick=\"('как Simulator Enabled'); Тестcl.Тестer();\" />\n                            <input id=\"clickMe\" type=\"button\" value=\"Blank emoji\" onclick=\"('Blank emoji'); Тестcl.blank();\" />\n              <input id=\"clickMe\" type=\"button\" value=\"gg emoji\" onclick=\"('gg emoji'); Тестcl.gg();\" />\n              <input id=\"clickMe\" type=\"button\" value=\"cool\" onclick=\"('Blank emoji'); Тестcl.fovzoom();\" />\n                            <input id=\"clickMe\" type=\"button\" value=\"Sry-Thx\" onclick=\"('Sry-Thx Simulator Enabled'); Тестcl.thxsry();\" />\n                            <input id=\"clickMe\" type=\"button\" value=\"Example\" onclick=\"('Example Simulator Enabled'); Тестcl.example();\" />\n                          </div>\n                        </div>");
                         l(".menu:not(:hover) .settings{display: none;} .menu:hover .settings{display: block; padding:4px;} .menu{position: fixed; top: 0; right: 0; z-index: 100000000; width: 180px; height: 20px; background-image: hsla(360, 100%, 100%, 0); webkit-transition: .3s ease; transition: .3s ease;} .menu:hover{background-image: linear-gradient(160deg, blue,green); border-radius:40px;  width: 160px; height: auto;} .settings input { display: block; background:linear-gradient(160deg,green,orange); width:150px; height:50px; border-radius:40px ;box-shadow:none; margin: 5px 0; }");
+                        if (localStorage.gui == undefined) {
+                localStorage.gui = 'on';
+            }
+
+            document.addEventListener("keydown", function (o) {
+                if (o.altKey && o.key.toLowerCase() === 'b') { // Check if Alt + B is pressed
+                    if (localStorage.gui == 'on') {
+                        document.getElementsByClassName("menu")[0].style.top = "0px";
+                        localStorage.gui = "off";
+                    } else if (localStorage.gui == "off") {
+                        document.getElementsByClassName("menu")[0].style.top = "-30px";
+                        localStorage.gui = 'on';
+                    }
+                }
+            });
+
+            if (localStorage.gui == 'on') {
+                document.getElementsByClassName("menu")[0].style.top = "0px";
+            }
+
+            if (localStorage.gui == "off") {
+                document.getElementsByClassName("menu")[0].style.top = "-30px";
+            }
 
         </script>
         <script>
